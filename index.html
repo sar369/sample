@@ -1,20 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is my cool website">
-    <title>My Cool Website</title>
-    <meta property="og:image" content="https://www.w3schools.com/images/w3schools_logo_436_2.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudyPoint</title>
+  <style>
+    /* Add your CSS styles here */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    .hero {
+      background-image: url('background-image.jpg'); /* Replace with your background image URL */
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #fff;
+      text-align: center;
+      position: relative; /* Added to make positioning work */
+    }
+    .site-name {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 24px;
+      color: #fff;
+    }
+    .navigation {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    .navigation a {
+      margin-left: 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+    .courses {
+      margin-top: 20px;
+    }
+    .course-button {
+      display: block;
+      width: 200px;
+      padding: 10px 20px;
+      margin: 10px auto;
+      font-size: 18px;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .course-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
-    <h1>PANDU</h1>
-    <h2>This is a demo text</h2>
-    <h3>This is a demo text</h3>
-    <h4>This is a demo text</h4>
-    <h5>This is a demo text</h5>
-    <h6>This is a demo text</h6>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat accusantium delectus eum vero est voluptatum magnam dolor eaque qui. Omnis aliquid quos quae accusantium officiis repellendus, inventore vel quo fugiat rem earum illum voluptatibus libero eum aspernatur recusandae odio deserunt officia facere amet sint numquam similique tempora voluptates! Quas accusantium tenetur praesentium laboriosam sapiente dolor voluptatibus perspiciatis quasi dolore aut, blanditiis voluptas molestias totam et eius eaque, explicabo animi nihil impedit consequuntur. Quos incidunt voluptate, ratione ullam alias, fugiat esse et perferendis vitae tempora, animi deleniti doloribus sint sunt optio aliquid delectus tempore qui! Pariatur nesciunt veniam maxime minus reprehenderit.</p>
+  <div class="hero">
+    <div class="site-name">StudyPoint</div>
+    <div class="navigation">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Support</a>
+    </div>
+    <h1>Courses</h1>
+    <div class="courses">
+      <a href="#" class="course-button">BCA</a>
+      <a href="#" class="course-button">BBA</a>
+      <a href="#" class="course-button">BSc</a>
+      <!-- Add more course buttons as needed -->
+    </div>
+  </div>
 </body>
 </html>
