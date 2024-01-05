@@ -1,0 +1,37 @@
+
+.title-tag {
+    text-align: center;
+}
+.c-button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+.bca-button {
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
+.bba-button {
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
+.bsc-button {
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
+.c-button,
+.home-button,
+.a-button,
+.s-button {
+    border: none;
+    cursor: pointer;
+    color: black;
+    margin-left: 10px;
+}
